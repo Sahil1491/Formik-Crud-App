@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Formik-Crud-App/static/css/main.15876f81.css",
+    "main.js": "/Formik-Crud-App/static/js/main.0b4975e2.js",
+    "static/js/453.d87e05f4.chunk.js": "/Formik-Crud-App/static/js/453.d87e05f4.chunk.js",
+    "index.html": "/Formik-Crud-App/index.html",
+    "main.15876f81.css.map": "/Formik-Crud-App/static/css/main.15876f81.css.map",
+    "main.0b4975e2.js.map": "/Formik-Crud-App/static/js/main.0b4975e2.js.map",
+    "453.d87e05f4.chunk.js.map": "/Formik-Crud-App/static/js/453.d87e05f4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15876f81.css",
+    "static/js/main.0b4975e2.js"
+  ]
+}
