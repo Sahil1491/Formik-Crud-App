@@ -1,0 +1,113 @@
+.modal-dialog {
+  max-width: 800px; /* Adjust the max width to make the form wider */
+  width: 100%;
+}
+
+.modal-header {
+  background-color: #a7aaa7;
+  color: white;
+}
+
+.modal-header .close {
+  color: white;
+  opacity: 1;
+}
+
+.modal-header .close:hover {
+  color: #ccc;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.875em;
+  margin-top: 0.25em;
+}
+
+.step-labels {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+.step-labels span {
+  font-weight: bold;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+  gap: 1em; /* Add some space between the fields */
+}
+
+.form-row .form-group {
+  flex: 1;
+}
+
+.comment-row {
+  margin-bottom: 1em;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.signal-light {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.signal-text {
+  margin-left: 10px;
+  font-size: 0.875em; 
+  color: #333;
+}
+
+.light {
+  width: 100px;
+  height: 100px;
+  margin: 5px 0;
+  text-align: center;
+  align-items: center;
+}
+
+.red {
+  background-color: #ff8427 ;
+}
+
+.green {
+  background-color: #92d050;
+}
+
+.orange {
+  background-color: #ffbd47;
+}
+
+.blue {
+  background-color: #00b0f0;
+}
+
+/* Additional styles for the table in step 2 */
+.table-container {
+  margin-top: 1em;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #dcdcdc;
+  color: white;
+}

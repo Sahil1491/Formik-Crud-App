@@ -1,0 +1,83 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #0a0909;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    transition: margin-left 0.3s ease;
+  }
+  
+  .sidebar-toggle {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #ffffff;
+    cursor: pointer;
+    margin-right: 15px;
+  }
+  
+  .header-content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .side-navbar {
+    position: fixed;
+    top: 60px; /* Height of the header */
+    left: 0;
+    width: 250px;
+    height: calc(100% - 60px);
+    background: #fff;
+    box-shadow: 2px 0 4px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    transform: translateX(-100%);
+    z-index: 1;
+  }
+  
+  .side-navbar.open {
+    transform: translateX(0);
+  }
+  
+  .sidebar-content {
+    padding: 20px;
+  }
+  
+  .icon-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .icon {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .icon-name {
+    font-size: 16px;
+  }
+  
+  .side-navbar.closed .icon-name {
+    display: none;
+  }
+  
+  .side-navbar.closed .icon {
+    margin-right: 0; /* Optional: Adjust spacing if needed */
+  }
+  
+  .header.shifted + .side-navbar {
+    margin-left: 50px; /* Adjust based on sidebar width */
+  }
+  
+  .home-container {
+    margin-top: 60px; /* Adjust based on header height */
+  }
+  
